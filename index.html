@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        McDonald
+    </title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-init.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+
+
+    <header class="container-lg py-3">
+        <div class="row mx-auto align-items-center">
+            <div class="first-section col-3 col-md-9 d-flex align-items-center">
+                <div class="col-12 col-md-2">
+                    <a href="#">
+                        <img src="assets/images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="header-items d-none d-md-flex flex-wrap col-md-10 list-unstyled m-0 p-0">
+                    <div class="px-2 px-lg-3 item-container">
+                        <a href="#" class="text-decoration-none text-red item-of-header">
+                            HomePage
+                        </a>
+                    </div>
+                    <div class="px-2 px-lg-3 item-container">
+                        <a href="#" class="text-decoration-none text-grey item-of-header">
+                            Menu
+                        </a>
+                    </div>
+                    <div class="px-2 px-lg-3 item-container">
+                        <a href="#" class="text-decoration-none text-grey item-of-header">
+                            SaleOff
+                        </a>
+                    </div>
+                    <div class="px-2 px-lg-3 item-container">
+                        <a href="#" class="text-decoration-none text-grey item-of-header">
+                            News
+                        </a>
+                    </div>
+                    <div class="px-2 px-lg-3 item-container">
+                        <a href="#" class="text-decoration-none text-grey item-of-header">
+                            Contact
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-section col-7 col-md-3 text-center px-0">
+                <a href="#" class="sign-in text-decoration-none border-red text-red rounded-5 py-1 px-2 mx-1">
+                    Sign in
+                </a>
+                <a href="#" class="text-decoration-none bg-red border-red text-white rounded-5 py-1 px-3 mx-1">
+                    Log in
+                </a>
+            </div>
+
+            <div class="d-flex d-md-none justify-content-center col-2">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler border-0 shadow-none p-0" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                            aria-label="Toggle navigation">
+                            <img src="assets/images/Burger.png" alt="menu">
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                            aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <button type="button" class="btn-close m-0" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">
+
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- order section -->
+        <section class="order-section container-lg my-3">
+            <div class="row mx-auto justify-content-center align-items-center">
+                <div class="myCard-container col-12 col-sm-6">
+                    <div class="card border-0">
+                        <div class="card-body p-0">
+                            <h1 class="card-title text-red text-shadow text-sm-start text-center fw-bold">
+                                Order your
+                                <br>
+                                favourite food
+                            </h1>
+                            <div class="card-text my-sm-4 my-2 text-sm-start text-center">
+                                Hamburger has many flavors, Have you tried Cheese Beef Hamburger?
+                            </div>
+                            <div class="card-text mt-4 mb-3 d-none d-sm-block">
+                                Total Order:
+                                <span class="fw-bold fs-5">
+                                    $5.39
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-transparent border-0 p-0 d-none d-sm-flex">
+                            <div class="quantity d-flex rounded-4 border box-shadow">
+                                <button class="minus text-black border-0 text-center" aria-label="Decrease">&minus;
+                                </button>
+                                <input type="number" class="input-box text-center border-0 outline-0" value="1" min="1"
+                                    max="10">
+                                <button class="plus text-black border-0 text-center" aria-label="Increase">&plus;
+                                </button>
+                            </div>
+                            <a href="#" class="order-now-btn bg-gold d-flex align-items-center fw-600 text-decoration-none
+                                text-black rounded-5 box-shadow ms-md-4 ms-1 p-2">
+                                <img src="assets/images/Shopping Basket.png" alt="shop">
+                                <span class="mx-2">
+                                    Order now
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 position-relative">
+                    <a href="#">
+                        <img src="assets/images/hamberger.png" class="img-fluid" alt="hamberger">
+                    </a>
+                    <div class="delivery text-center bg-gray position-absolute">
+                        <img src="assets/images/deliveryTime.png" class="img-fluid" alt="time">
+                    </div>
+                </div>
+                <div class="d-block d-sm-none mt-5 mb-5">
+                    <div class="bg-transparent border-0 p-0 d-flex flex-wrap justify-content-evenly">
+                        <p class="mt-4 mb-4 col-12 text-center">
+                            Total Order:
+                            <span class="fw-bold fs-5">
+                                $5.39
+                            </span>
+                        </p>
+                        <div class="quantity d-flex rounded-4 border box-shadow my-1">
+                            <button class="minus text-black border-0 text-center">&minus;
+                            </button>
+                            <input type="number" class="input-box text-center border-0 outline-0" value="1" min="1"
+                                max="10">
+                            <button class="plus text-black border-0 text-center">&plus;
+                            </button>
+                        </div>
+                        <a href="#" class="bg-gold d-flex align-items-center fw-600 text-decoration-none
+                            text-black rounded-5 box-shadow ms-md-4 ms-1 p-2 my-1">
+                            <img src="assets/images/Shopping Basket.png" alt="shop">
+                            <span class="mx-2">
+                                Order now
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- menu -->
+        <section class="menu container-lg my-3">
+            <div class="menu-text text-red display-6 fw-bold position-relative px-2 my-4">
+                Menu
+            </div>
+            <!-- desktop menu -->
+            <div class="desktop d-none d-md-block px-2">
+                <ul class="d-flex list-unstyled">
+                    <li class="bg-gold px-3 py-2 me-1 rounded-5">
+                        <a href="#" class="text-decoration-none text-black fw-600 d-flex align-items-center myMenu">
+                            <img src="assets/images/Badge Discount.png" class="w24 h24" alt="image">
+                            <span class="ps-2">
+                                Best seller
+                            </span>
+                        </a>
+                    </li>
+                    <li class="bg-gray px-3 py-2 mx-1 rounded-5">
+                        <a href="#" class="text-decoration-none text-grey fw-600 d-flex align-items-center myMenu">
+                            <img src="assets/images/Burger.png" class="w24 h24" alt="image">
+                            <span class="ps-2">
+                                Hamburher
+                            </span>
+                        </a>
+                    </li>
+                    <li class="bg-gray px-3 py-2 mx-1 rounded-5">
+                        <a href="#" class="text-decoration-none text-grey fw-600 d-flex align-items-center myMenu">
+                            <img src="assets/images/Cup.png" class="w24 h24" alt="image">
+                            <span class="ps-2">
+                                Drink
+                            </span>
+                        </a>
+                    </li>
+                    <li class="bg-gray px-3 py-2 mx-1 rounded-5">
+                        <a href="#" class="text-decoration-none text-grey fw-600 d-flex align-items-center myMenu">
+                            <img src="assets/images/Ice Cream.png" class="w24 h24" alt="image">
+                            <span class="ps-2">
+                                Dessert
+                            </span>
+                        </a>
+                    </li>
+                    <li class="bg-gray px-3 py-2 mx-1 rounded-5">
+                        <a href="#" class="text-decoration-none text-grey fw-600 d-flex align-items-center myMenu">
+                            <img src="assets/images/Serving Plate.png" class="w24 h24" alt="image">
+                            <span class="ps-2">
+                                Fried chicken
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- mobile menu -->
+            <div class="mobile d-md-none px-2">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide bg-gold px-3 py-2 rounded-5">
+
+                        </div>
+                        <div class="swiper-slide bg-gray px-3 py-2 rounded-5">
+
+                        </div>
+                        <div class="swiper-slide bg-gray px-3 py-2 rounded-5">
+
+                        </div>
+                        <div class="swiper-slide bg-gray px-3 py-2 rounded-5">
+
+                        </div>
+                        <div class="swiper-slide bg-gray px-3 py-2 rounded-5">
+
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- cards -->
+        <section class="cards container-lg">
+            <!-- desktop -->
+            <div class="desktop mx-auto d-none d-md-flex flex-wrap">
+                <div class="card-container col-12 col-md-6 col-lg-4 my-2 px-2">
+                    <div class="card">
+                        <div class="card-header bg-transparent border-0">
+                            <a href="#">
+                                <img src="assets/images/food1.png" class="card-img-top" alt="food">
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Cheese Beef Hamburger
+                            </h5>
+                            <p class="card-text">
+                                fried chicken balls, french fries
+                            </p>
+                            <div class="rating">
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <span>
+                                    (5)
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-transparent border-0">
+                            <h3 class="fw-bold">
+                                $5.39
+                            </h3>
+                            <a href="#" class="bg-red p-2 rounded-3">
+                                <img src="assets/images/Shopping Basket white.png" alt="add">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container col-12 col-md-6 col-lg-4 my-2 px-2">
+                    <div class="card">
+                        <div class="card-header bg-transparent border-0">
+                            <a href="#">
+                                <img src="assets/images/food2.png" class="card-img-top" alt="food">
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Combo funny
+                            </h5>
+                            <p class="card-text">
+                                fried chicken balls, french fries
+                            </p>
+                            <div class="rating">
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <span>
+                                    (5)
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-transparent border-0">
+                            <h3 class="fw-bold">
+                                $10.3
+                            </h3>
+                            <a href="#" class="bg-red p-2 rounded-3">
+                                <img src="assets/images/Shopping Basket white.png" alt="add">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container col-12 col-md-6 col-lg-4 my-2 px-2">
+                    <div class="card">
+                        <div class="card-header bg-transparent border-0">
+                            <a href="#">
+                                <img src="assets/images/food3.png" class="card-img-top" alt="food">
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Chicken with spicy sauce
+                            </h5>
+                            <p class="card-text">
+                                chili garlic sauce, black pepper sauce
+                            </p>
+                            <div class="rating">
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <span>
+                                    (5)
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-transparent border-0">
+                            <h3 class="fw-bold">
+                                $7.2
+                            </h3>
+                            <a href="#" class="bg-red p-2 rounded-3">
+                                <img src="assets/images/Shopping Basket white.png" alt="add">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container col-12 col-md-6 col-lg-4 my-2 px-2">
+                    <div class="card">
+                        <div class="card-header bg-transparent border-0">
+                            <a href="#">
+                                <img src="assets/images/food4.png" class="card-img-top" alt="food">
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Salad mixed vinegar
+                            </h5>
+                            <p class="card-text">
+                                Salad, vinegar, tomato
+                            </p>
+                            <div class="rating">
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <span>
+                                    (5)
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-transparent border-0">
+                            <h3 class="fw-bold">
+                                $5.4
+                            </h3>
+                            <a href="#" class="bg-red p-2 rounded-3">
+                                <img src="assets/images/Shopping Basket white.png" alt="add">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container col-12 col-md-6 col-lg-4 my-2 px-2">
+                    <div class="card">
+                        <div class="card-header bg-transparent border-0">
+                            <a href="#">
+                                <img src="assets/images/food5.png" class="card-img-top" alt="food">
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Chicken burger
+                            </h5>
+                            <p class="card-text">
+                                fried chicken
+                            </p>
+                            <div class="rating">
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <span>
+                                    (5)
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-transparent border-0">
+                            <h3 class="fw-bold">
+                                $5.39
+                            </h3>
+                            <a href="#" class="bg-red p-2 rounded-3">
+                                <img src="assets/images/Shopping Basket white.png" alt="add">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-container col-12 col-md-6 col-lg-4 my-2 px-2">
+                    <div class="card">
+                        <div class="card-header bg-transparent border-0">
+                            <a href="#">
+                                <img src="assets/images/drink.png" class="card-img-top" alt="food">
+                            </a>
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Lipton
+                            </h5>
+                            <div class="rating">
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <i class='fas fa-star text-gold'></i>
+                                <span>
+                                    (5)
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-footer d-flex justify-content-between bg-transparent border-0">
+                            <h3 class="fw-bold">
+                                $2.8
+                            </h3>
+                            <a href="#" class="bg-red p-2 rounded-3">
+                                <img src="assets/images/Shopping Basket white.png" alt="add">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile -->
+            <div class="mobile d-md-none">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide2">
+
+                        </div>
+                        <div class="swiper-slide swiper-slide2">
+
+                        </div>
+                        <div class="swiper-slide swiper-slide2">
+
+                        </div>
+                        <div class="swiper-slide swiper-slide2">
+
+                        </div>
+                        <div class="swiper-slide swiper-slide2">
+
+                        </div>
+                        <div class="swiper-slide swiper-slide2">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- three cards -->
+        <section class="three-cards container-lg my-5">
+            <div class="row mx-auto">
+                <div class="saleoff text-red display-6 fw-bold text-center px-2 my-4">
+                    <span class="saleoff-text position-relative">
+                        SALE OFF
+                    </span>
+                </div>
+
+                <div class="myCard-container col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card e3border bg-gray rounded-4">
+                        <div class="card-body position-relative py-custom px-4 pe-0">
+                            <p class="text mb-2 fw-600">
+                                Fast food
+                            </p>
+                            <h2 class="card-title text-red fw-600">
+                                COMBO FUNNY
+                            </h2>
+                            <p class="card-text">
+                                buy 1 funny combo
+                                <br>
+                                ger 1 coca cola
+                            </p>
+                            <p class="card-text d-flex align-items-center mb-5 position-absolute bottom-30">
+                                <span class="text-gray text-decoration-line-through fw-600">
+                                    11.3$
+                                </span>
+                                <span class="text-red fw-bold transform fs-20 ms-1">
+                                    10.3$
+                                </span>
+                            </p>
+                            <a href="#" class="order-btn bg-order fw-600 text-decoration-none
+                                text-white rounded-5 box-shadow p-2 position-absolute bottom-20">
+                                <img src="assets/images/white-shopping.png" class="transform ps-1" alt="shop">
+                                <span class="px-1">
+                                    Order now
+                                </span>
+                            </a>
+                            <a href="#">
+                                <img src="assets/images/food-image1.png" class="position-absolute img-fluid end-0 top-6"
+                                    alt="food">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="myCard-container col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card e3border bg-red rounded-4">
+                        <div class="card-body position-relative py-custom px-4 pe-0">
+                            <p class="text text-white mb-2 fw-600">
+                                Fast food
+                            </p>
+                            <h2 class="card-title text-gold fw-600">
+                                SALAD MIXED
+                                <br>
+                                VINEGAR
+                            </h2>
+                            <p class="card-text d-flex align-items-center mb-5 position-absolute bottom-30">
+                                <span class="text-white text-decoration-line-through fw-600">
+                                    10.3$
+                                </span>
+                                <span class="text-gold fw-bold transform fs-20 ms-1">
+                                    3.4$
+                                </span>
+                            </p>
+                            <a href="#" class="order-btn-last bg-yellow fw-600 text-decoration-none
+                                rounded-5 box-shadow p-2 position-absolute bottom-20">
+                                <img src="assets/images/Shopping Basket.png" class="transform ps-1" alt="shop">
+                                <span class="px-1 text-black">
+                                    Order now
+                                </span>
+                            </a>
+                            <a href="#">
+                                <img src="assets/images/food-image2.png" class="position-absolute img-fluid end-0 top-6"
+                                    alt="food">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="myCard-container col-12 col-md-6 col-lg-4 my-3">
+                    <div class="card e3border bg-gray rounded-4">
+                        <div class="card-body position-relative py-custom px-4 pe-0">
+                            <p class="text-last mb-2 fw-600">
+                                House
+                            </p>
+                            <h2 class="card-title text-red fw-600">
+                                CHICKEN BUGGER
+                            </h2>
+                            <p class="card-text">
+                                fried chicken
+                            </p>
+                            <p class="card-text d-flex align-items-center mb-5 position-absolute bottom-30">
+                                <span class="text-gray text-decoration-line-through fw-600">
+                                    8.3$
+                                </span>
+                                <span class="text-red fw-bold transform fs-20 ms-1">
+                                    6.3$
+                                </span>
+                            </p>
+                            <a href="#" class="order-btn bg-order fw-600 text-decoration-none
+                                text-white rounded-5 box-shadow p-2 position-absolute bottom-20">
+                                <img src="assets/images/white-shopping.png" class="transform ps-1" alt="shop">
+                                <span class="px-1">
+                                    Order now
+                                </span>
+                            </a>
+                            <a href="#">
+                                <img src="assets/images/food-image3.png" class="position-absolute img-fluid end-0 top-6"
+                                    alt="food">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- download app -->
+        <section class="download-app bg-gray border mb-5 ms-0 p-0 py-5">
+            <div class="row mx-auto">
+                <div class="col-12 col-md-10 col-lg-6 position-relative p-0 my-3">
+                    <img src="assets/images/Group 22.png" class="mobile-image img-fluid" alt="mobile">
+                </div>
+                <div class="col-12 col-md-10 col-lg-6 p-0 my-3">
+                    <div class="myCard-container">
+                        <div class="card bg-transparent border-0">
+                            <div class="card-body">
+                                <p class="card-text text-gray">
+                                    Exclusive offers and more
+                                </p>
+                                <h1 class="card-title text-red fw-bold my-3">
+                                    MCDONALD'S MOBILE APP
+                                </h1>
+                                <p class="card-text my-3 px-md-0 px-5">
+                                    As a global No.1 fast food brand, McDonald's wishes to bring customers not only
+                                    delicious and hygienic food of international standards but also the best service
+                                    experience
+                                </p>
+                                <a href="#" class="myBtn text-decoration-none me-2">
+                                    <img src="assets/images/appStore.png" class="img-fluid" alt="appStore">
+                                </a>
+                                <a href="#" class="myBtn text-decoration-none">
+                                    <img src="assets/images/googlePlay.png" class="img-fluid" alt="googlePlay">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- find near store -->
+        <section class="find-near-store position-relative container-lg mb-5">
+            <div class="bg-grey position-relative text-center rounded-4 px-3 mx-2">
+                <h2 class="text-white title fw-bold">
+                    FIND A FOODELI STORE NEAR YOU
+                </h2>
+                <p class="text-white text">
+                    see the convenience store address with your most
+                </p>
+                <form action="#" class="position-relative">
+                    <input type="text" name="address" id="address"
+                        class="bg-gold col-12 col-md-6 px-4 py-2 border-0 rounded-5" placeholder="Typing location">
+                    <a href="#"
+                        class="position-absolute see-on-map bg-white text-decoration-none text-black px-3 py-1 rounded-4">
+                        see in map
+                    </a>
+                </form>
+            </div>
+            <div class="image-container">
+                <img src="assets/images/salad-b.png" class="position-absolute salad" alt="food">
+            </div>
+            <div class="image-container2">
+                <img src="assets/images/hamburger-b.png" class="position-absolute hamburger" alt="food">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="container-fluid bg-yellow py-4">
+        <div class="row myFooter mx-auto container-lg">
+
+            <div class="col-12 col-md-4 my-3">
+                <div class="d-flex justify-content-center align-items-center my-4">
+                    <img src="assets/images/logo.png" class="mx-1" alt="logo">
+                    <h3 class="mx-1 mb-0">
+                        Mc Dobald's
+                    </h3>
+                </div>
+                <div class="d-flex justify-content-center align-items-center mt-4">
+                    <a href="#" title="Twitter" class="mx-3">
+                        <img src="assets/images/Twitter.png" alt="social media">
+                    </a>
+                    <a href="#" title="Facebook" class="mx-3">
+                        <img src="assets/images/Facebook.svg" alt="social media">
+                    </a>
+                    <a href="#" title="Messenger" class="mx-3">
+                        <img src="assets/images/messenger.png" alt="social media">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-8 row p-0">
+
+                <div class="col-6 text-center my-3 ps-0">
+                    <ul class="list-unstyled">
+                        <li class="mb-4">
+                            USEFUL LINKS
+                        </li>
+                        <li class="my-2">
+                            <a href="#" class="text-decoration-none text-grey">
+                                Homepage
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a href="#" class="text-decoration-none text-grey">
+                                Menu
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a href="#" class="text-decoration-none text-grey">
+                                Sale off
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a href="#" class="text-decoration-none text-grey">
+                                News
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a href="#" class="text-decoration-none text-grey">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-6 text-center my-3 pe-0">
+                    <ul class="list-unstyled">
+                        <li class="mb-4">
+                            OPENING HOUR
+                        </li>
+                        <li class="my-2">
+                            <a href="#" class="text-decoration-none text-grey">
+                                Monday - Friday: 9:00 - 23:00h
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a href="#" class="text-decoration-none text-grey">
+                                Saturday: 9:00 - 16:00h
+                            </a>
+                        </li>
+                        <li class="my-2">
+                            <a href="#" class="text-decoration-none text-grey">
+                                Sunday: 12:00 - 18:00h
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1.5,
+            spaceBetween: 10,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 10,
+                },
+                375: {
+                    slidesPerView: 1.7,
+                    spaceBetween: 10,
+                },
+                425: {
+                    slidesPerView: 2.1,
+                    spaceBetween: 10,
+                },
+                475: {
+                    slidesPerView: 2.3,
+                    spaceBetween: 10,
+                },
+                575: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 10,
+                },
+                675: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 10,
+                },
+            },
+        });
+    </script>
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+            slidesPerView: 1.5,
+            spaceBetween: 10,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1.25,
+                    spaceBetween: 10,
+                },
+                375: {
+                    slidesPerView: 1.5,
+                    spaceBetween: 10,
+                },
+                475: {
+                    slidesPerView: 2.2,
+                    spaceBetween: 10,
+                },
+                575: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 10,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>

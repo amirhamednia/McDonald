@@ -1,0 +1,72 @@
+@media(min-width:576px) {
+    main {
+        .order-section {
+            .delivery {
+                width: 10vw !important;
+                left: -11% !important;
+                top: 14% !important;
+            }
+        }
+    }
+}
+
+@media(max-width:767px) {
+    main {
+        .download-app {
+            width: 100% !important;
+            border-radius: 30rem 30rem 0 0 !important;
+            text-align: center;
+        }
+    }
+    footer {
+        .myFooter {
+            flex-direction: column-reverse !important;
+        }
+    }
+}
+
+@media(min-width:768px) {
+    main {
+        .cards {
+            .desktop {
+                .card-container {
+                    .card {
+                        min-height: 28rem;
+                    }
+                }
+            }
+        }
+
+        .find-near-store {
+            .see-on-map {
+                right: 25.5% !important;
+            }
+        }
+    }
+}
+
+@media(max-width:991px) {
+    main {
+        .download-app {
+            margin-top: 3rem !important;
+            .row {
+                flex-direction: column-reverse !important;
+            }
+        }
+    }
+}
+
+@media(min-width:992px) {
+    main {
+        .download-app {
+            border-radius: 0 30rem 30rem 0;
+
+            .row {
+                .mobile-image {
+                    bottom: -4rem;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}

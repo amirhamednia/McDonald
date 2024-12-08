@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "i": "^0.3.7",
+    "jquery": "^3.7.1",
+    "swiper": "^11.1.4"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "scripts": {
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/css/output.css --watch"
+  }
+}
